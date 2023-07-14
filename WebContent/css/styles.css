@@ -1,0 +1,159 @@
+@charset "ISO-8859-1";
+
+body{
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(46, 16, 163);
+	color: antiquewhite;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.display-3 {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+
+.dar-de-alta{
+	width: 60vw;
+	height: 75vh;
+	background-color: rgba(96, 61, 235,05);
+	border: 1px solid white;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 30px;
+	padding: auto;
+}
+.dar-de-alta form label{
+	font-size: 1rem;
+	letter-spacing: 1px;
+	font-weight: 300;
+	padding: 0;
+}
+.dar-de-alta form div{
+	width: 65%;
+	height: 50px;
+}
+
+
+form{
+	width: 70%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+
+.dar-de-alta form input{
+	width: 80%;
+	height: 27px;
+	margin-left: 10%;
+	transition: ease all .6s;
+	margin-top: 0;
+	margin-bottom: -20px;
+}
+
+.dar-de-alta form input:focus{
+	width: 90%;
+	height: 35px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: rgb(46, 16, 163);
+	color: white;
+	font-size: 1.3rem;
+}
+
+
+
+.btn-outline-success{
+	width: 40%;
+	height: 35px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	border: white 1px solid;
+	gap: 15px;
+}
+
+.btn-outline-success i{
+	font-size: 1.5rem;
+	margin: 0;
+	padding: 0;
+}
+.display-4{
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0;
+	
+	
+}
+
+
+.btn-primary{
+	
+	margin-top: -25px;
+	
+}
+
+.table-content{
+	padding: 0;
+	margin: 0;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.table-content table{
+	margin:0;
+	padding: 0;
+}
+.container-md{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.user-update{
+	margin: auto;
+	width: 60vw;
+	height: 75vh;
+	background-color: rgba(96, 61, 235,05);
+	border: 1px solid white;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 30px;
+	padding: auto;
+	
+}
+
+
+
+.user-update input{
+	width: 100%;
+	height: 27px;
+	margin-left: 10%;
+	transition: ease all .6s;
+	margin-top: 0;
+	margin-bottom: -20px;
+}
+.user-update input:focus{
+	width: 90%;
+	height: 35px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: rgb(46, 16, 163);
+	color: white;
+	font-size: 1.3rem;
+}
+
